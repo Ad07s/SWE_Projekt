@@ -15,7 +15,7 @@
 
 """Fixture für pytest: Neuladen der Datenbank."""
 
-from common_api_test import ctx, timeout
+from common_api_test import certificate_path as ctx, timeout
 from httpx import AsyncClient, AsyncHTTPTransport
 from pytest import fixture
 
